@@ -1,0 +1,20 @@
+echo "Douglas Amim" > comandos.txt
+echo "mkdir curso-git-branchs" >> comandos.txt
+echo "cd curso-git-branchs" >> comandos.txt
+echo "git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead" >> comandos.txt
+echo "cd curso-branchs-ifrn-ead" >> comandos.txt
+echo "echo \"Primeira linha...\" > texto.txt" >> comandos.txt
+echo "git add texto.txt" >> comandos.txt
+echo "git commit -m 'Adiciona texto.txt...'" >> comandos.txt
+echo "git checkout -b feature-1" >> comandos.txt
+echo "echo \"Modificado...\" > texto.txt" >> comandos.txt
+echo "git commit -am 'Modifica texto.txt...'" >> comandos.txt
+echo "git checkout main" >> comandos.txt
+echo "echo \"Outra modificação...\" > texto.txt" >> comandos.txt
+echo "git commit -am 'Modifica na main'" >> comandos.txt
+echo "git merge feature-1" >> comandos.txt
+echo "Resolver conflito e fazer commit" >> comandos.txt
+echo "git checkout -b add-comandos" >> comandos.txt
+echo "echo \"Comandos...\" > comandos.txt" >> comandos.txt
+echo "git add comandos.txt" >> comandos.txt
+echo "git commit -m 'Adiciona comandos utilizados na atividade'" >> comandos.txt
